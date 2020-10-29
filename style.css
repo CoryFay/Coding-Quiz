@@ -1,3 +1,23 @@
-.main  {
-   text-align: center;
+
+header{
+    border: solid 5px black;
+    background-color: cornflowerblue;
+    margin: 0px;
+    padding: 20px;
+
 }
+
+#main  {
+   text-align: center;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+#start {
+    font-size: 18px;
+    background-color: coral;
+    padding: 5px;
+    position: relative;
+    left: 45%;
+}
+

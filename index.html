@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="text/javascript" href ="script.js">
+    <!--linking all scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    
     <title>Coding Quiz</title>
 </head>
 <body>
+    <!--Static header that will remain in top left corner of DOM-->
     <header>
         <h1>Coding Quiz!</h1>
     </header>
-
+    <!--main section where questions & answers will be displayed-->
     <section>
-        <h2 class="main">Question: </h2>
-       
+        <h2 id="main" style="display: block;">You will be given 10 random questions to answer within the 90 second time frame!<br> Answer wrong and we will deduct ten seconds from your remaining time.<br> The game will end when all quesitons are answered or the timer runs out.</h2>
+        <button id="start" style="display: block;">Start Game!</button>
     </section>
+
     
+
 </body>
 </html>
