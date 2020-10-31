@@ -1,5 +1,9 @@
-//defining the global variables
 
+/*  1. create html page add logic and styles and link all
+    2. in logic, on click of start btn hide start page and display first question and answers and start timer
+    3. on answer click, if correct do one thing, if wrong do something else, track score, display next question and answers
+    4. if all questions are answered or if timer runs outs, hide questions and answers, display finished page with final score
+*/
 
 
 
